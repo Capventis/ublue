@@ -42,6 +42,11 @@ modules:
       - podman-plugins
       - podman-compose
 
+  - type: systemd
+    system:
+      enabled:
+        - docker.service
+
   - type: bling # configure what to pull in from ublue-os/bling
     install:
       - justfiles # add "!include /usr/share/ublue-os/just/bling.just"
@@ -54,12 +59,6 @@ modules:
       google-fonts:
         - Roboto
         - Open Sans
-
-  - type: yafti # if included, yafti and it's dependencies (pip & libadwaita)
-                #  will be installed and set up
-    custom-flatpaks: # this section is optional
-      # - Celluloid: io.github.celluloid_player.Celluloid
-      # - Krita: org.kde.krita
 
   - type: script
     scripts:
