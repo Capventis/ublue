@@ -33,6 +33,9 @@ modules:
       - docker-ce
       - gstreamer1-vaapi
       - gstreamer1-plugin-openh264
+      - gh
+      - virt-install
+      - virt-manager
     remove:
       - toolbox
       - podman
