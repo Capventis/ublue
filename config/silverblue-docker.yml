@@ -36,6 +36,7 @@ modules:
       - gh
       - virt-install
       - virt-manager
+      - nethogs
     remove:
       - toolbox
       - podman
