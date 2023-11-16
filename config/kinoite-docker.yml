@@ -36,6 +36,9 @@ modules:
       - virt-install
       - virt-manager
       - nethogs
+      - gwenview
+      - okular
+      - ksystemlog
     remove:
       - toolbox
       - podman
