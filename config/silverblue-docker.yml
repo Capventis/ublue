@@ -40,8 +40,6 @@ modules:
     remove:
       - toolbox
       - podman
-      - podman-plugins
-      - podman-compose
 
   - type: systemd
     system:
