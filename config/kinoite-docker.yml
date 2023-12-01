@@ -42,7 +42,6 @@ modules:
     remove:
       - toolbox
       - podman
-      - podman-plugins
 
   - type: systemd
     system:
