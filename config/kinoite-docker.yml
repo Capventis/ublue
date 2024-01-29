@@ -54,7 +54,7 @@ modules:
         - Hack
       google-fonts:
         - Roboto
-        - Op
+        - Open Sans
   
   - type: default-flatpaks
     notify: true   # Send notification after install/uninstall is finished (true/false)
